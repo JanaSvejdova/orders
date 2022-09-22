@@ -13,7 +13,9 @@
         <h1 class="title">
             Evidence požadavků na nákup
         </h1>
-        <img class="main-logo"  src="logo_bosonohy.jpg" width="200" height="80">
+        <div class="hide-on-mobile">
+             <img class="main-logo"  src="logo_bosonohy.jpg" width="200" height="80">
+        </div>
     </header>
     <br><br>
     <div class="main-content">
@@ -21,7 +23,7 @@
             <table class="center" >
                 <tr>
                     <td>
-                        Středisko (výběr):
+                        Středisko :
                     </td>
                     <td>
                         <select id="" name="STREDISKO"  style="width: 170px">
@@ -62,7 +64,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Komodita (výběr):
+                        Komodita :
                     </td>
                     <td>
                          <select id="komodita" name="KOMODITA"  style="width: 170px" >
@@ -78,7 +80,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Priorita nákupy (výběr):
+                        Priorita nákupy :
                     </td>
                     <td>
                         <select id="priorita_nakupu" name="PRIORITA_NAKUPU"  style="width: 170px" >
@@ -146,7 +148,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Nakoupeno (výběr) vyplňuje Ing. Prachařová
+                        Nakoupeno  vyplňuje Ing. Prachařová
                     </td>
                     <td>
                         <select id="nakoupeno" name="NAKOUPENO"  style="width: 170px" >
@@ -159,7 +161,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Pomůcky (výběr):
+                        Pomůcky :
                     </td>
                     <td>
                         <select id="pomucky" name="POMUCKY"  style="width: 170px" >
@@ -204,12 +206,7 @@
                 </tr>
                 <tr> 
                     <td colspan="2">
-                        
-                            <input type="submit" value="odeslat">
-                       
-                      
-                        
-                        
+                         <input type="submit" value="odeslat" class="submit">
                     </td>
                 </tr>
             </table>

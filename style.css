@@ -3,6 +3,11 @@
     text-align: center;
 
 }
+@media screen and (max-width: 999px){
+  .hide-on-mobile {
+      display: none;
+  }
+}
 
 .main-logo {
  position: absolute;
@@ -11,16 +16,14 @@
  }
 
  table {
-  table-layout: auto;
-  
+    width: 50%;
     border: 1px black solid ;
-    background-color: rgb(89, 89, 202);
+    background-color:#b93638;
     border-radius: 2%;
    
   }
 
 tr{
-  
     color: rgb(250, 250, 250);
   }
 
@@ -28,6 +31,7 @@ tr{
     padding-top:20px;
     padding-bottom:20px;
     padding-right:20px;   
+   
   }
   
   td:first-child {
@@ -37,4 +41,34 @@ tr{
   .center {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .submit {
+    margin-left: 100px;
+  
+    color: #ebeae5;
+    background-color: #335c67;
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+   
+    
+  }
+
+  .submit:hover {
+    color:#ebeae5;
+    background-color: #4f772d;
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+  }
+
+  
+  .login {
+    margin: auto;
+    color: #ebeae5;
+    background-color: #335c67;
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
   }
