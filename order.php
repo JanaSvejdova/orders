@@ -1,26 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Order</title>
-    <link rel="icon" type="image/x-icon" href="logo_bosonohy_small.jpg" >
-</head>
+
+<?php include "header.php" ?>
+<script src="script.js"></script>
+
+<title>Order</title>
 <body>
-    <header>
         <h1 class="title">
             Evidence požadavků na nákup
         </h1>
         <div class="hide-on-mobile">
              <img class="main-logo"  src="logo_bosonohy.jpg" width="200" height="80">
         </div>
-    </header>
+   
     <br><br>
     <div class="main-content">
         <form> 
             <table class="center" >
+            <tr>
+                    <td>
+                        testing :
+                    </td>
+                    <td>
+                         <select id="slct1" name="slct1"  style="width: 170px" onchange="populate('slct1', 'slct2')">
+                                <option value="">Výběr</option>
+                                <option value="elektro">Elektrospotřebiče</option>
+                                <option value="pocitace">Počítače, notebooky</option>
+                                <option value="nabytek">Nábytek</option>
+                                <option value="sportovni">Sportovní potřeby</option>
+                                <option value="stroje">Stroje a nářadí</option>
+                                <option value="ostatni">Ostatní</option>
+                         </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        testing specifikace :
+                    </td>
+                    <td>
+                              <select id="slct2"> 
+                           
+                            </select>
+                    </td>
+                    <tr>  <td>další specifikace </td>
+                    <td>
+                        <select name="car" id="main_menu" >
+                            <option value=""> </option>
+                            <option value="suv">suv </option>
+                            <option value="sedan">sedan </option>
+                            <option value="hatcar">hatcar </option>
+                        </select>
+                    </td> 
+                    <td>
+                        <select name="carname" id="sub_menu" >
+
+                        </select>
+                    </td>
+                    
+                    </tr>
+                </tr>
                 <tr>
                     <td>
                         Středisko :

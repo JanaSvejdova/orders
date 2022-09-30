@@ -72,3 +72,26 @@ tr{
     height: 30px;
     border-radius: 50px;
   }
+
+
+  .input {
+    border-radius: 5px;
+    border: solid thin #aaa;
+    padding: 10px;
+    margin: 4px;
+  }
+
+ .button{
+    border-radius: 5px;
+    border: solid thin #aaa;
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+ }
+ 
+
+  .nav {
+    color: #4f772d;
+    text-decoration: none ;
+  }
+
